@@ -103,6 +103,9 @@ class _UpdateInfoState extends State<UpdateInfo> {
                             _dateBirthController.text,
                             _emailController.text, linkFacebook, avatar, eWallet, context);
                         name = _nameController.text;
+                        phone = _phoneNController.text;
+                        dateOfBirth = _dateBirthController.text;
+                        email = _emailController.text;
                       });
                     },
                     child: const Text('Change Info', style: TextStyle(color: Colors.black),),
